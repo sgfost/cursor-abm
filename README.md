@@ -17,12 +17,33 @@ This project implements an agent-based model (ABM) using Mesa to simulate the fo
 
 ## Installation
 
-1. Clone this repository
-2. Create a virtual environment (recommended)
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+This project uses `uv` for package management. `uv` is an extremely fast Python package installer and resolver, written in Rust, and designed as a drop-in replacement for `pip` and `pip-tools`.
+
+1. **Install `uv`**
+
+   You can install `uv` using the following command:
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+   Or, if you have `pipx`:
+   ```bash
+   pipx install uv
+   ```
+
+2. **Create a virtual environment**
+   ```bash
+   uv venv
+   ```
+
+3. **Activate the virtual environment**
+   ```bash
+   source .venv/bin/activate
+   ```
+
+4. **Install dependencies**
+   ```bash
+   uv pip sync requirements.txt
+   ```
 
 ## Usage
 

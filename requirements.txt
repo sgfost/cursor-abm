@@ -1,5 +1,6 @@
 mesa[all]==3.0.3
-numpy==1.24.3
-matplotlib==3.7.1
-scipy==1.10.1
+numpy==1.26.4
+matplotlib==3.9.0
+scipy==1.13.0
 solara==1.44.1
+tqdm==4.66.4
