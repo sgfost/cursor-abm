@@ -9,7 +9,7 @@ class Walker(Agent):
         self.current_goal = None
         self.path = []
         self.steps_taken = 0
-        self.max_steps = 100  # Maximum steps before choosing a new goal
+        self.max_steps = 50  # Maximum steps before choosing a new goal
         
     def step(self):
         """Execute one step of the agent's behavior."""
